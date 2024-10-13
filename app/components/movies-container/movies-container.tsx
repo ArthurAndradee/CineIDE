@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 "use client"
 import React, { useState } from 'react';
-import movies from '@/app/movies/movies';
+import movies from '@/app/database/movies';
 import './movies-container.css';
 
 function MoviesContainer() {
