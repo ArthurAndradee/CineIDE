@@ -6,12 +6,12 @@ import './movies-container.css'
 function MoviesContainer() {
 
     return (
-        <div>
-          <h1>Filmes em cartaz</h1>
+        <div className='movie-posters-container'>
+          <h1 className='movie-posters-title'>FILMES EM CARTAZ</h1>
 
-          <div>
+          <div className='moive-posters-box'>
             {movies.map((movie) => (
-            <div style={{height:'11rem', width:'9rem'}} key={movie.name}>
+            <div key={movie.name}>
                 <img src={movie.imagem} alt={movie.name} />
             </div>
             ))}

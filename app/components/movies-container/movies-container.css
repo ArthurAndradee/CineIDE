@@ -1,0 +1,22 @@
+.movie-posters-container {
+    margin: 0 2rem 2rem 2rem; 
+}
+
+.movie-posters-title {
+    color: #FFF;
+
+    font-weight: 700;
+    font-size: 1.5rem;
+
+    padding: 2rem 0rem;
+}
+
+.moive-posters-box {
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    row-gap: 50px;
+    column-gap: 50px;
+
+    margin-top: 15px;
+}
