@@ -12,8 +12,8 @@ function MoviesContainer() {
     return (
       movie.name.toLowerCase().includes(searchLower) ||
       movie.genero.toLowerCase().includes(searchLower) ||
-      movie.autor.toLowerCase().includes(searchLower) 
-      // || movie.atores.some((actor: string) => actor.toLowerCase().includes(searchLower))
+      movie.diretores.some((actor: string) => actor.toLowerCase().includes(searchLower)) || 
+      movie.atores.some((actor: string) => actor.toLowerCase().includes(searchLower))
     );
   });
 
