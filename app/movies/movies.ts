@@ -207,7 +207,7 @@ const movies = [
             "John Lafia"
         ],
         genero: "Slasher",
-        imagem: "https://static.wikia.nocookie.net/brinquedoassassino/images/7/76/Child%27s_Play.jpg/revision/latest?cb=20131015180121&path-prefix=pt-br",
+        imagem: "https://br.web.img2.acsta.net/pictures/14/10/10/18/18/494547.jpg",
         atores:[
             "Alex Vincent",
             "Gabriel Bateman",
