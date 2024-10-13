@@ -2,6 +2,18 @@
     margin: 0 2rem 2rem 2rem; 
 }
 
+.search-input {
+    width: 100%;
+
+    background: #ffffff00;
+    color: #FFF;
+
+    border-bottom: 1px solid #FFFFFF;
+
+    padding: 5px;
+    outline: none;
+}
+
 .movie-posters-title {
     color: #FFF;
 
@@ -11,7 +23,7 @@
     padding: 2rem 0rem;
 }
 
-.moive-posters-box {
+.movie-posters-box {
     display: grid;
     
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
