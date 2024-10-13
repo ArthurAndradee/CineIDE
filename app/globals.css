@@ -8,9 +8,11 @@ body {
 }
 
 .page-background {
-  height: 100vh;
-
-  background: url('./assets/background.png') no-repeat center center;
+  min-height: 100vh;
+  
+  background: url('./assets/background.png') repeat;
+  background-size: auto; 
+  background-position: center; 
 }
 
 @layer utilities {
@@ -21,7 +23,7 @@ body {
 
 @media only screen and (min-width: 1335px) {
   .page-background {
-    background-size: 100% 100%;
+    background-size: cover;
   }
 }
 

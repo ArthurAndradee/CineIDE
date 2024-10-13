@@ -1,18 +1,51 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .footer-container {
     height: 10vh;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     color: #FFFFFF;
     background: #000000;
+    
+    margin-top: auto;
 }
 
 .footer-box {
+    width: 100%;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #000000;
 
-    padding: 3rem;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons * {
+    font-size: 3.5rem;
+
+    margin: 1.5rem;
+}
+
+.ide-icon, .ide-icon-bottom {
+    height: 3.5rem;
+    width:  4rem;
+
+    background: url('../../assets/logo-ide.png') no-repeat center center;
+    background-size: contain;
+}
+
+.ide-icon-bottom {
+    margin-left: auto;
 }
