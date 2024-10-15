@@ -1,6 +1,8 @@
 .icones-do-terror-container {
     display: flex;
     flex-direction: column;
+
+    margin: 3rem 0;
 }
 
 .icones-do-terror-title {
@@ -61,4 +63,10 @@
 .active-terror-icon-picture {
     height: 30rem;
     width:  37.5rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .selected-icon-details {
+      flex-direction: column;
+    }
 }

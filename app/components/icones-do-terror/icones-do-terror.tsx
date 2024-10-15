@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 "use client"
 import React, { useState } from 'react';
-import './icones-do-terror.css';
 import icons from '@/app/database/icons';
+import './icones-do-terror.css';
 
 type Icon = {
     nome: string;
