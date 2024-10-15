@@ -1,3 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/milanello');
+@import url('https://fonts.cdnfonts.com/css/cinematografica');
+
 :root {
     --fonte-padrao: Milanello, Arial, Verdana, Helvetica, sans-serif;
 }
@@ -6,6 +9,8 @@
   position: relative;
   height: 770px;
   width: 100%;
+
+                                                
   
   background-position: bottom;
   background-size: cover;
@@ -45,7 +50,8 @@ nav > a {
  
  color: white;
  font-size: 1.25rem;
- font-weight: bold;
+ font-weight: 100;
+ font-family: 'Milanello', sans-serif;
  
  border-radius: 5px;
  transition-duration: 0.5s;
@@ -60,18 +66,27 @@ nav > a:hover {
    position: absolute;
    text-align: end;
 
-   top: 32rem;
+   top: 30rem;
    right: 8rem;
 
    color: white;
  }
 
  .title-ide {
-  font-size: 5rem;
-  letter-spacing: 4px;
+  height: 8.5rem;
+  width: 16.5rem;
+
+  display: flex;
+  margin-left: auto;
+
+  margin-bottom: 2rem;
+  font-size: 9rem;
+  letter-spacing: 13px;
+  font-family: 'Cinematografica', sans-serif;
  }
  
  .frase-header {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    font-size: 1.15rem;
    color: rgb(255, 255, 255);
  }

@@ -13,7 +13,7 @@ function header() {
                 <a href="#">INGRESSOS</a>
             </nav>
             <div className='title-box'>
-              <h1 className='title-ide'>CineIDE</h1>
+              <h1 className='title-ide'>C<p>ine</p>IDE</h1>
               <p className="frase-header">Clássicos de terror, onde o pavor nunca sai de cena</p>
             </div>
         </div> 
