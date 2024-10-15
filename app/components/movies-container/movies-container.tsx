@@ -9,10 +9,11 @@ function MoviesContainer() {
 
   const filteredMovies = movies.filter((movie) => {
     const searchLower = searchTerm.toLowerCase();
+    
     return (
       movie.name.toLowerCase().includes(searchLower) ||
       movie.genero.toLowerCase().includes(searchLower) ||
-      movie.diretores.some((actor: string) => actor.toLowerCase().includes(searchLower)) || 
+      movie.diretores.some((diretor: string) => diretor.toLowerCase().includes(searchLower)) || 
       movie.atores.some((actor: string) => actor.toLowerCase().includes(searchLower))
     );
   });
