@@ -19,7 +19,7 @@ function MoviesContainer() {
   });
 
   return (
-    <div className="movie-posters-container">
+    <div id = "catalogo" className="movie-posters-container">
       <h1 className="movie-posters-title">FILMES EM CARTAZ</h1>
       
       <input
@@ -33,7 +33,7 @@ function MoviesContainer() {
       <div className="movie-posters-box">
         {filteredMovies.map((movie) => (
           <div key={movie.name}>
-            <img src={movie.imagem} alt={movie.name} />
+              <img src={movie.imagem} alt={movie.name} />
           </div>
         ))}
       </div>
