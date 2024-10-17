@@ -13,7 +13,7 @@ function Footer() {
                 </div>
                 <div>CineIDE © Todos os direitos reservados.</div>
                 <div>Termos de Uso  |  Politica de Privacidade  |  Política de Cookies</div>
-            <div className='ide-icon-bottom'></div>
+                    <div className='ide-icon-bottom'></div>
             </div>
         </div>
     );

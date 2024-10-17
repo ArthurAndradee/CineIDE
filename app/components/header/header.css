@@ -1,0 +1,90 @@
+@import url('https://fonts.cdnfonts.com/css/milanello');
+@import url('https://fonts.cdnfonts.com/css/cinematografica');
+
+:root {
+    --fonte-padrao: Milanello, Arial, Verdana, Helvetica, sans-serif;
+}
+
+.bcg-header {
+  position: relative;
+  height: 770px;
+  width: 100%;                                   
+  
+  background-position: bottom;
+  background-size: cover;
+  background-image: url("https://s3-alpha-sig.figma.com/img/8d07/06e3/50377127b405a30f04c20cb81e1dedcd?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dXYpPvmVADKP027m7SiwcYj7NjQXgzErdUghUwzfjiqxpN5cvKoZzGqJyjHX0Zxbf9n1lV7tcgrmcWQWdGekCnf6qdzG7DPfAY2jra9yhY9sPn09F-kVKyhnqEcHuxlkuTrEVLGYbfTDtxwBaem7ERqZ-j2EfbuXvrM7dU6VpB0-g6kVi6TVztrbtnq4FdMfNydzQmeBHFiP6-E4Gq-XxGaPnZNknY8ARVQa6wjUHLSPAGKqhyvTDcIRoUNHCEU9-IFxv64fdZmtOGeE5XIu~g9MQLaAN6v1fvdgh2mgyFC~5FyuyxCJzwrsVAQCHLCQWQPMa4zKiIXk0ZJt0wVoJA__");
+}
+
+.bcg-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.title-box,
+nav {
+  position: relative;
+  z-index: 2;
+}
+
+nav {
+  display: flex;
+
+  padding: 1rem;
+  opacity: 90%;
+  
+  background-color: rgba(0, 0, 0, 0.55);
+}
+ 
+nav > a {
+ padding: 20px;
+ margin: auto;
+ 
+ color: white;
+ font-size: 1.25rem;
+ font-weight: 100;
+ font-family: 'Milanello', sans-serif;
+ 
+ border-radius: 5px;
+ transition-duration: 0.5s;
+}
+
+nav > a:hover {
+ color: black;
+ background-color: white;
+}
+
+.title-box {
+   position: absolute;
+   text-align: end;
+
+   top: 30rem;
+   right: 8rem;
+
+   color: white;
+ }
+
+ .title-ide {
+  height: 8.5rem;
+  width: 16.5rem;
+
+  display: flex;
+  margin-left: auto;
+
+  margin-bottom: 2rem;
+  font-size: 9rem;
+  letter-spacing: 13px;
+  font-family: 'Cinematografica', sans-serif;
+ }
+ 
+ .frase-header {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 1.15rem;
+   color: rgb(255, 255, 255);
+ }
