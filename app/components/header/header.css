@@ -1,5 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/milanello');
 @import url('https://fonts.cdnfonts.com/css/cinematografica');
+@import url('https://fonts.cdnfonts.com/css/inclusive-sans-2');
 
 :root {
     --fonte-padrao: Milanello, Arial, Verdana, Helvetica, sans-serif;
@@ -8,7 +9,9 @@
 .bcg-header {
   position: relative;
   height: 770px;
-  width: 100%;                                   
+  width: 100%;
+
+                                                
   
   background-position: bottom;
   background-size: cover;
@@ -35,17 +38,19 @@ nav {
 
 nav {
   display: flex;
-
+  position: fixed;
+  width: 100%;
+  max-width: 1370px;
+  
   padding: 1rem;
   opacity: 90%;
   
   background-color: rgba(0, 0, 0, 0.55);
 }
- 
+
 nav > a {
  padding: 20px;
  margin: auto;
- 
  color: white;
  font-size: 1.25rem;
  font-weight: 100;
@@ -84,7 +89,7 @@ nav > a:hover {
  }
  
  .frase-header {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   font-size: 1.15rem;
-   color: rgb(255, 255, 255);
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 1.15rem;
+    color: rgb(255, 255, 255);
  }

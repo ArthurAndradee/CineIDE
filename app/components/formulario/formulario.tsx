@@ -3,7 +3,7 @@ import './formulario.css'
 
 function Formulario() {
     return (
-        <div>
+        <div id = "ingressos">
             <h1 className='buy-tickets-title'>COMPRAR INGRESSO</h1>
 
             <div className='form-container'>

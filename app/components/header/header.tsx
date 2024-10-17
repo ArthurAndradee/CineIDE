@@ -5,12 +5,12 @@ function Header() {
     
   return (
     <header>
-        <div className="bcg-header">
+        <div id="home" className="bcg-header">
             <nav>
-              <a href="#">HOME</a>
-              <a href="#">CATALOGO</a>
-              <a href="#">ASSASSINOS</a>
-              <a href="#">INGRESSOS</a>
+              <a href="#home">HOME</a>
+              <a href="#catalogo">CATALOGO</a>
+              <a href="#assassinos">ASSASSINOS</a>
+              <a href="#ingressos">INGRESSOS</a>
             </nav>
             <div className='title-box'>
               <h1 className='title-ide'>C<p>ine</p>IDE</h1>

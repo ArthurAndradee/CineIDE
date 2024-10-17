@@ -14,7 +14,7 @@ function IconesDoTerror() {
     const [selectedIcon, setSelectedIcon] = useState<Icon>(icons[0]);
 
     return (
-        <div className='icones-do-terror-container'>
+        <div id = "assassinos" className='icones-do-terror-container'>
             <h1 className='icones-do-terror-title'>OS ICONES DO TERROR</h1>
 
             <div className='icones-do-terror-nav'>
