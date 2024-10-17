@@ -2,7 +2,7 @@ const icons =
 [
     {
         nome: "Pennywise",
-        descricao:"Pennywise é uma entidade cósmica que se alimenta do medo e surge a cada 27 anos em Derry. Ele assume a forma de um palhaço para atrair vítimas, especialmente crianças, e usa ilusões para explorar seus piores medos. Sádico e manipulador, sua verdadeira forma é uma força maligna além da compreensão humana .",
+        descricao:"Pennywise é uma entidade cósmica que se alimenta do medo e surge a cada 27 anos em Derry. Ele assume a forma de um palhaço para atrair vítimas, especialmente crianças, e usa ilusões para explorar seus piores medos. Sádico e manipulador, sua verdadeira forma é uma força maligna além da compreensão humana.",
         imagem:"https://s3-alpha-sig.figma.com/img/778c/a399/2c10721c48d249c89fa5d548467a64fd?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XLsmpiqLOwyUSIkRz6T9i3Co5aFnedn3F7NMEqX0BeD8qwpJ6ihwmYpT9P3Geuye7NjxZVkPYLoeCO8QHoa05VnJ7hB9o77vYratp6nocintl3cojOuHUL2GOKR8hADHnKNCuQpl7y0vQoBJ7WYaXU~wR9uAG7yK2q1xIyqE-QSRoP1VvZsAIkM5u3VYLjEPz2GWmZay2rHhxe1Jj5f71sJjZciJk8scK~-imeKvrN~yWXP8lPfV6dWRLVVaeNJO7loh0-rPkidUNQdnfxMdROVjr~ix1lscjIIaxMgkvTlO~qyZ90QNw9CImhUSL~7dAzxYAczC4GtBaA8-1xWCaQ__"
     },
     
@@ -50,7 +50,7 @@ const icons =
 
     {
         nome: "Boitatá",
-        descricao: "Boitatá é uma monumental serpente de fogo que habita as águas brasileiras. Todo cuidado é pouco para aquele que adentrar as florestas de seu domínio, pois, com sua destreza em se transformar em toras flamejantes, Boitatá incinera todos que ameaçarem destruir seu reino, como caçadores e garimpeiros.",
+        descricao: "Boitatá é uma mounmental serpente de fogo que habita as águas brasileiras. Todo cuidado é pouco para aquele que adentrar as florestas de seu domínio, pois, com sua destreza em se transformar em toras flamejantes, Boitatá incinera todos que ameaçarem destruir seu reino, como caçadores e garimpeiros.",
         imagem:""
     }
 ];
