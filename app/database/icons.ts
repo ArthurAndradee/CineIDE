@@ -32,9 +32,27 @@ const icons =
 
     {
         nome: "Jason",
-        descricao: "Leatherface é um homem corpulento que usa uma máscara de pele humana e carrega uma serra elétrica, tornando-o uma figura aterrorizante. Ele vive em uma fazenda isolada com sua família canibal, os Sawyer, que sequestram e matam viajantes. Mentalmente instável, age de forma primitiva e violenta, sendo frequentemente manipulado por outros membros da família.",
+        descricao: "Jason Voorhees, da série \"Friday the 13th\", é um assassino icônico criado por Victor Miller. Após se afogar no Lago Crystal, busca vingança usando uma máscara de hóquei e um facão para matar campistas. Sua figura se tornou um símbolo do gênero slasher e um ícone da cultura pop.",
         imagem: "https://s3-alpha-sig.figma.com/img/a5c6/69ea/095a3f4d3a92117dda09976ae89a5938?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oIjYcQ1Z0nvTQhM3gbjcOdLzYZrc5wfMj7XpU6N6P5X8w6LdNXjUUrZsPIaB0B2~nhCc-~YHBPspvj6Rec5CDL3CEAAoDwNqGIS6vdrQO5suM8xRWFhltYBsKn63TBT7i9hl6MDzSCAQ92Zg7pxFEv8rXeJ2RVG4iI8Q9wm~SKdJY-dm1bZGPwoKK2c1g0i8Y7hE4BtfNdIAWpO4M3kEkx7PT1NLlDCqxARwXeEQf~FRTqGi1H34AOobBTZ2O8Bbww-IbWhx2Lo7mfy872oDH4765TmrPVMir1qWzb2YBbZ3TlrjTQ~8rltWZa42GVlC5zAcDxxP8lmBgJ2eVDWn2w__"
     },
+
+    {
+        nome: "Mula sem Cabeça",
+        descricao:"Diz a lenda que, amaldiçoada por se casar com um Padre, uma jovem moça se transormou na tão assustadora Mula sem Cabeça, um equíneo que solta labaredas de seu pescoço. Do pôr do sol das quintas-feiras ao nascer do sol das sextas-feiras, ela galopa ferozmente pelos campos e amaldiçoa casais contentes e prósperos que a lembram de seu destino tão lastimável. Muitos relatam que às vezes é possível escutar um choro humano vindo de sua figura.",
+        imagem: ""
+    },
+
+    {
+        nome: "Dr Racket",
+        descricao:"Doutor Racket, também conhecido como senhor fundamentos, é a mais maligna da entidades sobrenaturais do primeiro semestre de Ciência da Computação. Sempre à espreita dos calouros, Dr Racket tem como sua presa predileta estudantes novatos, que , inocentemente, imaginam que podem declarar variáveis ou realizar for-loops para resolver seus problemas. Seu período de maior colheita de frustrações é no estágio final da cadeira, quando os estudantes precisam trabalhar com grafos.",
+        imagem: ""
+    },
+
+    {
+        nome: "Boitatá",
+        descricao: "Boitatá é uma mounmental serpente de fogo que habita as águas brasileiras. Todo cuidado é pouco para aquele que adentrar as florestas de seu domínio, pois, com sua destreza em se transformar em toras flamejantes, Boitatá incinera todos que ameaçarem destruir seu reino, como caçadores e garimpeiros.",
+        imagem:""
+    }
 ];
 
 export default icons;
