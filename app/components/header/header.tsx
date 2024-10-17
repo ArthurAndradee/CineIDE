@@ -1,16 +1,16 @@
 import React from 'react';
 import './header.css'
 
-function header() {
+function Header() {
     
   return (
     <header>
         <div className="bcg-header">
             <nav>
-                <a href="#">HOME</a>
-                <a href="#">CATALOGO</a>
-                <a href="#">ASSASSINOS</a>
-                <a href="#">INGRESSOS</a>
+              <a href="#">HOME</a>
+              <a href="#">CATALOGO</a>
+              <a href="#">ASSASSINOS</a>
+              <a href="#">INGRESSOS</a>
             </nav>
             <div className='title-box'>
               <h1 className='title-ide'>C<p>ine</p>IDE</h1>
@@ -22,4 +22,4 @@ function header() {
   );
 };
 
-export default header;
+export default Header;
