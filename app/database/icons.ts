@@ -50,7 +50,7 @@ const icons =
 
     {
         nome: "Boitatá",
-        descricao: "Boitatá é uma mounmental serpente de fogo que habita as águas brasileiras. Todo cuidado é pouco para aquele que adentrar as florestas de seu domínio, pois, com sua destreza em se transformar em toras flamejantes, Boitatá incinera todos que ameaçarem destruir seu reino, como caçadores e garimpeiros.",
+        descricao: "Boitatá é uma monumental serpente de fogo que habita as águas brasileiras. Todo cuidado é pouco para aquele que adentrar as florestas de seu domínio, pois, com sua destreza em se transformar em toras flamejantes, Boitatá incinera todos que ameaçarem destruir seu reino, como caçadores e garimpeiros.",
         imagem:""
     }
 ];

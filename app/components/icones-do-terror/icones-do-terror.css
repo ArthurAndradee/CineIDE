@@ -1,5 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/milanello');
 @import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cairo');
 
 .icones-do-terror-container {
     display: flex;
@@ -20,7 +21,8 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px; 
-
+    font-family: 'Milanello', sans-serif;
+    cursor: context-menu;
     margin: 1rem 0rem;
 }
 
@@ -51,8 +53,7 @@
 
 .active-terror-icon-title {
     font-size: 2rem;
-    font-family: "Rammetto One", sans-serif;
-    
+    font-family: 'Milanello', sans-serif;
     margin: 0 0 2rem 0;
 
     color: #FFFFFF;
@@ -61,7 +62,8 @@
 .active-terror-icon-description {
     font-size: 1.75rem;
     font-weight: 300;
-
+    
+    font-family: "Rammetto One", sans-serif;
     color: #FFFFFF;
 }
 
