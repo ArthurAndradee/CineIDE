@@ -2,7 +2,7 @@ const icons =
 [
     {
         nome: "Pennywise",
-        descricao:"Pennywise é uma entidade cósmica que se alimenta do medo e surge a cada 27 anos em Derry. Ele assume a forma de um palhaço para atrair vítimas, especialmente crianças, e usa ilusões para explorar seus piores medos. Sádico e manipulador, sua verdadeira forma é uma força maligna além da compreensão humana .",
+        descricao:"Pennywise é uma entidade cósmica que se alimenta do medo e surge a cada 27 anos em Derry. Ele assume a forma de um palhaço para atrair vítimas, especialmente crianças, e usa ilusões para explorar seus piores medos. Sádico e manipulador, sua verdadeira forma é uma força maligna além da compreensão humana.",
         imagem:"https://s3-alpha-sig.figma.com/img/778c/a399/2c10721c48d249c89fa5d548467a64fd?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XLsmpiqLOwyUSIkRz6T9i3Co5aFnedn3F7NMEqX0BeD8qwpJ6ihwmYpT9P3Geuye7NjxZVkPYLoeCO8QHoa05VnJ7hB9o77vYratp6nocintl3cojOuHUL2GOKR8hADHnKNCuQpl7y0vQoBJ7WYaXU~wR9uAG7yK2q1xIyqE-QSRoP1VvZsAIkM5u3VYLjEPz2GWmZay2rHhxe1Jj5f71sJjZciJk8scK~-imeKvrN~yWXP8lPfV6dWRLVVaeNJO7loh0-rPkidUNQdnfxMdROVjr~ix1lscjIIaxMgkvTlO~qyZ90QNw9CImhUSL~7dAzxYAczC4GtBaA8-1xWCaQ__"
     },
     
@@ -35,6 +35,24 @@ const icons =
         descricao: "Jason Voorhees, da série \"Friday the 13th\", é um assassino icônico criado por Victor Miller. Após se afogar no Lago Crystal, busca vingança usando uma máscara de hóquei e um facão para matar campistas. Sua figura se tornou um símbolo do gênero slasher e um ícone da cultura pop.",
         imagem: "https://s3-alpha-sig.figma.com/img/a5c6/69ea/095a3f4d3a92117dda09976ae89a5938?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oIjYcQ1Z0nvTQhM3gbjcOdLzYZrc5wfMj7XpU6N6P5X8w6LdNXjUUrZsPIaB0B2~nhCc-~YHBPspvj6Rec5CDL3CEAAoDwNqGIS6vdrQO5suM8xRWFhltYBsKn63TBT7i9hl6MDzSCAQ92Zg7pxFEv8rXeJ2RVG4iI8Q9wm~SKdJY-dm1bZGPwoKK2c1g0i8Y7hE4BtfNdIAWpO4M3kEkx7PT1NLlDCqxARwXeEQf~FRTqGi1H34AOobBTZ2O8Bbww-IbWhx2Lo7mfy872oDH4765TmrPVMir1qWzb2YBbZ3TlrjTQ~8rltWZa42GVlC5zAcDxxP8lmBgJ2eVDWn2w__"
     },
+
+    {
+        nome: "Mula sem Cabeça",
+        descricao:"Diz a lenda que, amaldiçoada por se casar com um Padre, uma jovem moça se transormou na tão assustadora Mula sem Cabeça, um equíneo que solta labaredas de seu pescoço. Do pôr do sol das quintas-feiras ao nascer do sol das sextas-feiras, ela galopa ferozmente pelos campos e amaldiçoa casais contentes e prósperos que a lembram de seu destino tão lastimável. Muitos relatam que às vezes é possível escutar um choro humano vindo de sua figura.",
+        imagem: ""
+    },
+
+    {
+        nome: "Dr Racket",
+        descricao:"Doutor Racket, também conhecido como senhor fundamentos, é a mais maligna da entidades sobrenaturais do primeiro semestre de Ciência da Computação. Sempre à espreita dos calouros, Dr Racket tem como sua presa predileta estudantes novatos, que , inocentemente, imaginam que podem declarar variáveis ou realizar for-loops para resolver seus problemas. Seu período de maior colheita de frustrações é no estágio final da cadeira, quando os estudantes precisam trabalhar com grafos.",
+        imagem: ""
+    },
+
+    {
+        nome: "Boitatá",
+        descricao: "Boitatá é uma mounmental serpente de fogo que habita as águas brasileiras. Todo cuidado é pouco para aquele que adentrar as florestas de seu domínio, pois, com sua destreza em se transformar em toras flamejantes, Boitatá incinera todos que ameaçarem destruir seu reino, como caçadores e garimpeiros.",
+        imagem:""
+    }
 ];
 
 export default icons;
