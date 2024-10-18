@@ -1,11 +1,11 @@
 "use client"
 import React, { useState } from 'react';
-import movies from '@/app/database/movies'; // Certifique-se de que o caminho está correto
+import movies from '@/app/database/movies'; 
 import './movies-container.css';
 
 function MoviesContainer() {
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedMovie, setSelectedMovie] = useState(null); // Estado para o filme selecionado
+  const [selectedMovie, setSelectedMovie] = useState(null); 
 
   const filteredMovies = movies.filter((movie) => {
     const searchLower = searchTerm.toLowerCase();
@@ -19,7 +19,7 @@ function MoviesContainer() {
   });
 
   const handleClick = (movie) => {
-    setSelectedMovie(movie); // Define o filme selecionado
+    setSelectedMovie(movie); 
   };
 
   return (

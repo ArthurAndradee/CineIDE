@@ -50,17 +50,17 @@
 
 .tooltip{
 
-    position: absolute; /* Para que o balão apareça acima da imagem */
-    background-color: rgb(0, 0, 0); /* Cor de fundo */
-    color: white; /* Cor do texto */
-    padding: 10px; /* Espaçamento interno */
-    border-radius: 5px; /* Bordas arredondadas */
-    top: 10px; /* Ajuste a posição conforme necessário */
-    left: 10px; /* Ajuste a posição conforme necessário */
-    z-index: 10; /* Para garantir que o balão apareça acima de outros elementos */
-    transition: opacity 0.3s ease; /* Transição suave ao aparecer/desaparecer */
-    width: 500px; /* Defina uma largura fixa ou ajuste conforme necessário */
-    max-width: 2000px; /* Defina uma largura máxima */
-    font-size: 24px; /* Ajuste o tamanho da fonte */
+    position: absolute; 
+    background-color: rgb(104, 26, 90); 
+    color: white; 
+    padding: 10px; 
+    border-radius: 5px; 
+    top: 10px; 
+    left: 10px; 
+    z-index: 10; 
+    transition: opacity 0.3s ease; 
+    width: 500px; 
+    max-width: 2000px; 
+    font-size: 24px; 
 
 }
