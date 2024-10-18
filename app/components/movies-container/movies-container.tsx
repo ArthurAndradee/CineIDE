@@ -23,7 +23,7 @@ function MoviesContainer() {
   };
 
   return (
-    <div className="movie-posters-container">
+    <div id = "catalogo" className="movie-posters-container">
       <h1 className="movie-posters-title">FILMES EM CARTAZ</h1>
       
       <input
