@@ -39,13 +39,13 @@ const icons =
     {
         nome: "Mula sem Cabeça",
         descricao:"Diz a lenda que, amaldiçoada por se casar com um Padre, uma jovem moça se transormou na tão assustadora Mula sem Cabeça, um equíneo que solta labaredas de seu pescoço. Do pôr do sol das quintas-feiras ao nascer do sol das sextas-feiras, ela galopa ferozmente pelos campos e amaldiçoa casais contentes e prósperos que a lembram de seu destino tão lastimável. Muitos relatam que às vezes é possível escutar um choro humano vindo de sua figura.",
-        imagem: ""
+        imagem: "https://www.multirio.rj.gov.br/images/img_2017_10/MULA-SEM-CABECA.jpg"
     },
 
     {
         nome: "Dr Racket",
         descricao:"Doutor Racket, também conhecido como senhor fundamentos, é a mais maligna da entidades sobrenaturais do primeiro semestre de Ciência da Computação. Sempre à espreita dos calouros, Dr Racket tem como sua presa predileta estudantes novatos, que , inocentemente, imaginam que podem declarar variáveis ou realizar for-loops para resolver seus problemas. Seu período de maior colheita de frustrações é no estágio final da cadeira, quando os estudantes precisam trabalhar com grafos.",
-        imagem: ""
+        imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Racket-logo.svg/800px-Racket-logo.svg.png"
     },
 
     {

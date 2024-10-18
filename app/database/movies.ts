@@ -13,7 +13,7 @@ const movies = [
             "Kevin Bacon",
             "Amy Steel"
         ],
-        resenha: "Jovens monitores se preparam para uma temporada de diversão no acampamento Crystal Lake, mas não têm ideia de que vivenciarão eventos trágicos com origens em uma antiga morte no local."
+        resenha: "Friday the 13th: Jovens monitores se preparam para uma temporada de diversão no acampamento Crystal Lake, mas não têm ideia de que vivenciarão eventos trágicos com origens em uma antiga morte no local."
     },
 
     {
@@ -29,7 +29,7 @@ const movies = [
             "Jamie Lee Curtis",
             "Charles Cyphers"
         ],
-        resenha: "Após ter saído do sanatório Smith Grove por ter assassinado sua irmã, o agora adulto Michael Myers volta à sua cidade natal para dar sequência à sua onda de terror."
+        resenha: "Halloween: Após ter saído do sanatório Smith Grove por ter assassinado sua irmã, o agora adulto Michael Myers volta à sua cidade natal para dar sequência à sua onda de terror."
     },
 
     {
@@ -45,7 +45,7 @@ const movies = [
             "Johnny Depp",
             "John Saxon"
         ],
-        resenha: "As linha tênue entre sonhos e realidade se torna fatídica para o grupo de jovens atormentado por Fred Krueger, um assassino que abate suas vítimas enquanto dormem."
+        resenha: "A Nigthmare on Elm Street: As linha tênue entre sonhos e realidade se torna fatídica para o grupo de jovens atormentado por Fred Krueger, um assassino que abate suas vítimas enquanto dormem."
     },
 
     {
@@ -64,7 +64,7 @@ const movies = [
             "Harry Dean Stanton",
             "Bolaji Badejo"
         ],
-        resenha: "A caminho da Terra, a tripulação da espaçonave Nostromo recebe uma mensagem de socorro de outro planeta. Ao chegar lá, um dos membros da equipe, Kane, entra em contato com um alienígena, do que se resulta eventos catastróficos."
+        resenha: "Alien: A caminho da Terra, a tripulação da espaçonave Nostromo recebe uma mensagem de socorro de outro planeta. Ao chegar lá, um dos membros da equipe, Kane, entra em contato com um alienígena, do que se resulta eventos catastróficos."
     },
 
     {
@@ -81,7 +81,7 @@ const movies = [
             "Wilford Brimley",
             "David Clennon"
         ],
-        resenha: "Uma equipe de pesquisadores da Antártida encontra uma nave alienígina enterrada no gelo onde estava um extraterrestre capaz de imitar humanos. A partir daí, nenhum membro da equipe mais pode confiar em seus colegas."
+        resenha: "The Thing: Uma equipe de pesquisadores da Antártida encontra uma nave alienígina enterrada no gelo onde estava um extraterrestre capaz de imitar humanos. A partir daí, nenhum membro da equipe mais pode confiar em seus colegas."
     },
 
     {
@@ -98,7 +98,7 @@ const movies = [
             "Edwin Neal",
             "Teri McMinn"
         ],
-        resenha: "Ao viajar pelo Texas, um grupo de amigos se depara com uma família de canibais, entre eles, Leatherface, um violento assassino que veste as peles humanas de suas vítimas brutalmente abatidas."
+        resenha: "The Texas Chain Saw Massacre: Ao viajar pelo Texas, um grupo de amigos se depara com uma família de canibais, entre eles, Leatherface, um violento assassino que veste as peles humanas de suas vítimas brutalmente abatidas."
     },
 
     {
@@ -116,7 +116,7 @@ const movies = [
             "Wes Craven",
             "Skeet Ulrich"
         ],
-        resenha: "Um grupo de adolescentes, em uma pequena cidade, se tornam vítimas de um misterioso assasssino chamado Ghostface."
+        resenha: "Scream: Um grupo de adolescentes, em uma pequena cidade, se tornam vítimas de um misterioso assasssino chamado Ghostface."
         
     },
     
@@ -133,7 +133,7 @@ const movies = [
             "David Dorfman",
             "Martin Henderson"
         ],
-        resenha: "A jornalista investigativa Rachel Keller busca se aprofundar na história de uma fita de vídeo misteriosa. Aqueles que a ela asssistem recebem um telefonema com uma voz sussurante: \"7 dias\"."
+        resenha: "The Ring: A jornalista investigativa Rachel Keller busca se aprofundar na história de uma fita de vídeo misteriosa. Aqueles que a ela asssistem recebem um telefonema com uma voz sussurante: \"7 dias\"."
         
     },
     
@@ -151,7 +151,7 @@ const movies = [
             "Sean Chapman",
             "Andrew Robinson"
         ],
-        resenha: "Frank Cotton descobre uma caixa misteriosa chamada \"Lemarchand's Box\" capaz de levá-lo para uma dimensão infernal habitada por criaturas conhecidas como Cenobitas."
+        resenha: "Hellraiser: Frank Cotton descobre uma caixa misteriosa chamada \"Lemarchand's Box\" capaz de levá-lo para uma dimensão infernal habitada por criaturas conhecidas como Cenobitas."
         
     },
     
@@ -170,7 +170,7 @@ const movies = [
             "Danny Lloyd",
             "Lia Beldam"
         ],
-        resenha: "Ao se mudar com sua família para um hotel onde trabalha como zelador, Jack Torrance cede às influências sobrenaturais do local. Seu filho, Danny, porém, demonstra uma habilidade essencial para lidar com as terríveis presenças do hotel."
+        resenha: "The Shining: Ao se mudar com sua família para um hotel onde trabalha como zelador, Jack Torrance cede às influências sobrenaturais do local. Seu filho, Danny, porém, demonstra uma habilidade essencial para lidar com as terríveis presenças do hotel."
         
     },
 
@@ -190,7 +190,7 @@ const movies = [
             "Karl Hardman",
             "Kyra Schon"
         ],
-        resenha: "Um meteoro atinge a Terra, reanimando, assim, todos mortos em criaturas sedentas por carne humana. Um grupo de sobreviventes se refugia em uma fazenda isolada e deve se proteger dos zumbis que a cerca."
+        resenha: "Night of the Living Dead: Um meteoro atinge a Terra, reanimando, assim, todos mortos em criaturas sedentas por carne humana. Um grupo de sobreviventes se refugia em uma fazenda isolada e deve se proteger dos zumbis que a cerca."
         
     },
 
@@ -208,7 +208,7 @@ const movies = [
             "Jason Miller",
             "Max von Sydow"
         ],
-        resenha: "A jovem de 12 anos Regan MacNeil apresenta comportamentos estranhos após ter entrado em contato com uma entidade demoníaca antiga. Sua mãe pede socorro a um padre que vem perdendo sua fé."
+        resenha: "The Exorcist: A jovem de 12 anos Regan MacNeil apresenta comportamentos estranhos após ter entrado em contato com uma entidade demoníaca antiga. Sua mãe pede socorro a um padre que vem perdendo sua fé."
         
     },
 
@@ -226,7 +226,7 @@ const movies = [
             "Brad Dourif",
             "Aubrey Plaza"
         ],
-        resenha: "O menino de 6 anos Andy Barclay vive uma aterrorizante jornada de sobrevivência após ter contato com Chucky, um boneco no qual foi depositada a alma de um antigo assassino por meio de um ritual Vodu."
+        resenha: "Child's Play: O menino de 6 anos Andy Barclay vive uma aterrorizante jornada de sobrevivência após ter contato com Chucky, um boneco no qual foi depositada a alma de um antigo assassino por meio de um ritual Vodu."
         
     },
 
@@ -244,7 +244,7 @@ const movies = [
             "Miguel Ferrer",
             "Dan Monahan"
         ],
-        resenha: "O repórter sensacionalista Richard Dees embarca numa jornada para cobrir uma série de assassinatos misteriosos atribuídos a um misterioso vampiro que viaja de avião particular."
+        resenha: "The Night Flier: O repórter sensacionalista Richard Dees embarca numa jornada para cobrir uma série de assassinatos misteriosos atribuídos a um misterioso vampiro que viaja de avião particular."
         
     },
 
@@ -263,7 +263,7 @@ const movies = [
             "Glenn Strange",
             "Javier Bardem"
         ],
-        resenha: "Um cientista suíço traz vida a um composto de órgãos de diferentes cadáveres que fica conhecido como \"O Monstro\". Com o decorrer da vida, o Monstro  entra em desilusão com o mundo que conheceu, o que culmina em trágicos eventos."
+        resenha: "Frankenstein: Um cientista suíço traz vida a um composto de órgãos de diferentes cadáveres que fica conhecido como \"O Monstro\". Com o decorrer da vida, o Monstro  entra em desilusão com o mundo que conheceu, o que culmina em trágicos eventos."
         
     },
 
@@ -281,7 +281,7 @@ const movies = [
             "Michael Emerson",
             "Shawnee Smith"
         ],
-        resenha: "Adam e Lawrance acordam em um banheiro sujo com um cadáver. Logo descobrem que estão sendo manipulados por um psicopata chamado Jigsaw, que propõe jogos que testam a vontade de sobrevivência dos dois homens."
+        resenha: "Saw: Adam e Lawrance acordam em um banheiro sujo com um cadáver. Logo descobrem que estão sendo manipulados por um psicopata chamado Jigsaw, que propõe jogos que testam a vontade de sobrevivência dos dois homens."
     }
 
 ];

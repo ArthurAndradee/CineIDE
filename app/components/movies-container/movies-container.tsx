@@ -1,11 +1,11 @@
-/* eslint-disable @next/next/no-img-element */
 "use client"
 import React, { useState } from 'react';
-import movies from '@/app/database/movies';
+import movies from '@/app/database/movies'; // Certifique-se de que o caminho está correto
 import './movies-container.css';
 
 function MoviesContainer() {
   const [searchTerm, setSearchTerm] = useState('');
+  const [selectedMovie, setSelectedMovie] = useState(null); // Estado para o filme selecionado
 
   const filteredMovies = movies.filter((movie) => {
     const searchLower = searchTerm.toLowerCase();
@@ -13,13 +13,17 @@ function MoviesContainer() {
     return (
       movie.name.toLowerCase().includes(searchLower) ||
       movie.genero.toLowerCase().includes(searchLower) ||
-      movie.diretores.some((diretor: string) => diretor.toLowerCase().includes(searchLower)) || 
-      movie.atores.some((actor: string) => actor.toLowerCase().includes(searchLower))
+      movie.diretores.some((diretor) => diretor.toLowerCase().includes(searchLower)) || 
+      movie.atores.some((ator) => ator.toLowerCase().includes(searchLower))
     );
   });
 
+  const handleClick = (movie) => {
+    setSelectedMovie(movie); // Define o filme selecionado
+  };
+
   return (
-    <div id = "catalogo" className="movie-posters-container">
+    <div className="movie-posters-container">
       <h1 className="movie-posters-title">FILMES EM CARTAZ</h1>
       
       <input
@@ -32,13 +36,14 @@ function MoviesContainer() {
 
       <div className="movie-posters-box">
         {filteredMovies.map((movie) => (
-
-          <div key={movie.name}>
-              <img src={movie.imagem} alt={movie.name} />
+          <div key={movie.name} style={{ position: 'relative' }} onClick={() => handleClick(movie)}>
+            <img src={movie.imagem} alt={movie.name} />
+            {selectedMovie === movie && (
+              <div className="tooltip">
+                {movie.resenha}
+              </div>
+            )}
           </div>
-
-            <img key={movie.name} src={movie.imagem} alt={movie.name} />
-
         ))}
       </div>
     </div>
