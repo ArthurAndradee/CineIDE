@@ -39,7 +39,7 @@ const icons =
     {
         nome: "Mula sem Cabeça",
         descricao:"Diz a lenda que, amaldiçoada por se casar com um Padre, uma jovem moça se transormou na tão assustadora Mula sem Cabeça, um equíneo que solta labaredas de seu pescoço. Do pôr do sol das quintas-feiras ao nascer do sol das sextas-feiras, ela galopa ferozmente pelos campos e amaldiçoa casais contentes e prósperos que a lembram de seu destino tão lastimável. Muitos relatam que às vezes é possível escutar um choro humano vindo de sua figura.",
-        imagem: "https://www.multirio.rj.gov.br/images/img_2017_10/MULA-SEM-CABECA.jpg"
+        imagem: "https://cdn.discordapp.com/attachments/690282329423347742/1296949899786715217/20241018_183222.png?ex=67142638&is=6712d4b8&hm=fa15a9d85f7c2f2ed88472173e7da07eae5b27d83fba8c1b555ec5c07c9b30e2&"
     },
 
     {
@@ -51,7 +51,7 @@ const icons =
     {
         nome: "Boitatá",
         descricao: "Boitatá é uma mounmental serpente de fogo que habita as águas brasileiras. Todo cuidado é pouco para aquele que adentrar as florestas de seu domínio, pois, com sua destreza em se transformar em toras flamejantes, Boitatá incinera todos que ameaçarem destruir seu reino, como caçadores e garimpeiros.",
-        imagem:""
+        imagem:"https://cdn.discordapp.com/attachments/690282329423347742/1296941607903432846/20241016_171642.png?ex=67141e7f&is=6712ccff&hm=e0361e02478bff95251f08966dc1163d77bc98b0e891582762e36ea32d2d2b18&"
     }
 ];
 
