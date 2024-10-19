@@ -1,13 +1,23 @@
+/* eslint-disable @next/next/no-img-element */
 "use client"
 import React, { useState } from 'react';
 import movies from '@/app/database/movies'; 
 import './movies-container.css';
 
+interface Movie {
+  name: string;
+  genero: string;
+  diretores: string[];
+  atores: string[];
+  imagem: string;
+  resenha: string;
+}
+
 function MoviesContainer() {
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedMovie, setSelectedMovie] = useState(null); 
+  const [selectedMovie, setSelectedMovie] = useState<Movie | null>(null);
 
-  const filteredMovies = movies.filter((movie) => {
+  const filteredMovies = movies.filter((movie: Movie) => {
     const searchLower = searchTerm.toLowerCase();
     
     return (
@@ -18,12 +28,12 @@ function MoviesContainer() {
     );
   });
 
-  const handleClick = (movie?) => {
-    setSelectedMovie(movie); // Define o filme selecionado
+  const handleClick = (movie: Movie | null) => {
+    setSelectedMovie(movie);
   };
 
   return (
-    <div id = "catalogo" className="movie-posters-container">
+    <div id="catalogo" className="movie-posters-container">
       <h1 className="movie-posters-title">FILMES EM CARTAZ</h1>
       
       <input
@@ -35,13 +45,13 @@ function MoviesContainer() {
       />
 
       <div className="movie-posters-box">
-        {filteredMovies.map((movie) => (
+        {filteredMovies.map((movie: Movie) => (
           <div key={movie.name} style={{ position: 'relative' }} onClick={() => handleClick(selectedMovie === movie ? null : movie)}>
             <img src={movie.imagem} alt={movie.name} />
             {selectedMovie === movie && (
               <div className="tooltip">
                 {movie.resenha}
-                <button className="btn" onClick={() => {handleClick(null as any) }}>Fechar</button>
+                <button className="btn" onClick={() => handleClick(null)}>Fechar</button>
               </div>
             )}
           </div>
