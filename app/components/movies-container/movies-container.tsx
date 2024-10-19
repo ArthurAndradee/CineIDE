@@ -18,8 +18,8 @@ function MoviesContainer() {
     );
   });
 
-  const handleClick = (movie) => {
-    setSelectedMovie(movie); 
+  const handleClick = (movie?) => {
+    setSelectedMovie(movie); // Define o filme selecionado
   };
 
   return (
@@ -36,11 +36,12 @@ function MoviesContainer() {
 
       <div className="movie-posters-box">
         {filteredMovies.map((movie) => (
-          <div key={movie.name} style={{ position: 'relative' }} onClick={() => handleClick(movie)}>
+          <div key={movie.name} style={{ position: 'relative' }} onClick={() => handleClick(selectedMovie === movie ? null : movie)}>
             <img src={movie.imagem} alt={movie.name} />
             {selectedMovie === movie && (
               <div className="tooltip">
                 {movie.resenha}
+                <button className="btn" onClick={() => {handleClick(null as any) }}>Fechar</button>
               </div>
             )}
           </div>
