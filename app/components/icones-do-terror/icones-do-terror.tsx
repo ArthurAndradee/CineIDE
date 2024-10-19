@@ -29,7 +29,7 @@ function IconesDoTerror() {
                 <div className='selected-icon-details'>
                     <div className='selected-icon-box'>
                         <h1 className='active-terror-icon-title'>{selectedIcon.nome}</h1>
-                        <div className='active-terror-icon-description'>{selectedIcon.descricao}</div>
+                        <div className='active-terror-icon-description'><div>{selectedIcon.descricao}</div></div>
                     </div>
                     <img className='active-terror-icon-picture' src={selectedIcon.imagem} alt={selectedIcon.nome} />
                 </div>

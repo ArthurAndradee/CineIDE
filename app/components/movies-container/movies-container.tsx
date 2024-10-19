@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 "use client"
 import React, { useState } from 'react';
 import movies from '@/app/database/movies'; 
@@ -47,16 +46,21 @@ function MoviesContainer() {
       <div className="movie-posters-box">
         {filteredMovies.map((movie: Movie) => (
           <div key={movie.name} style={{ position: 'relative' }} onClick={() => handleClick(selectedMovie === movie ? null : movie)}>
-            <img src={movie.imagem} alt={movie.name} />
-            {selectedMovie === movie && (
-              <div className="tooltip">
-                {movie.resenha}
-                <button className="btn" onClick={() => handleClick(null)}>Fechar</button>
-              </div>
-            )}
+            <img src={movie.imagem} alt={movie.name} className='movie-image'/>
           </div>
         ))}
       </div>
+
+      {selectedMovie && (
+        <>
+          <div className="overlay" onClick={() => handleClick(null)}></div>
+          <div className="description-container">
+            <h1 className='description-title'>{selectedMovie.name}</h1>
+            {selectedMovie.resenha}
+            <button className="btn" onClick={() => handleClick(null)}>Fechar</button>
+          </div>
+        </>
+      )}
     </div>
   );
 }
