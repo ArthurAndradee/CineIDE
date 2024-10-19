@@ -1,16 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 "use client"
 import React, { useState } from 'react';
+import { Movie } from '@/app/utils/interfaces';
 import movies from '@/app/database/movies'; 
 import './movies-container.css';
-
-interface Movie {
-  name: string;
-  genero: string;
-  diretores: string[];
-  atores: string[];
-  imagem: string;
-  resenha: string;
-}
 
 function MoviesContainer() {
   const [searchTerm, setSearchTerm] = useState('');

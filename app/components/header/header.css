@@ -27,10 +27,9 @@
     background-color: rgba(0, 0, 0, 0.5);
   }
 
-    .title-box,
-  nav {
+  .title-box, nav {
     position: relative;
-    z-index: 2;
+    z-index: 0;
   }
 
   nav {
