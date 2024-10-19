@@ -65,8 +65,9 @@
 }
 
 .active-terror-icon-picture {
-    height: fit-content;
-    width: fit-content;
+    height: 30rem;
+    width:  37.5rem;
+    
 }
 
 .active-terror-icon-description {
@@ -83,10 +84,16 @@
     .active-terror-icon-description {
         font-size: 1.75rem;
     }
+    
 }
 
 @media screen and (max-width: 600px){
     .active-terror-icon-description {
         font-size: 1rem;
+    }
+    .active-terror-icon-picture {
+        height: fit-content;
+        width:  fit-content;
+        
     }
 }
